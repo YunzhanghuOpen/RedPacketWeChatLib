@@ -20,8 +20,8 @@ Pod::Spec.new do |wx|
 
   wx.vendored_libraries = 'libWeChatSDK.a'
   wx.public_header_files = '*.h'
-  wx.frameworks = 'Foundation', 'UIKit', 'Security', 'CoreTelephony', 'SystemConfiguration' 
-  wx.libraries  = 'z', 'c++'
-  wx.documentation_url = 'https%3a%2f%2fopen.weixin.qq.com%2fcgi-bin%2fshowdocument%3faction%3ddir_list%26t%3dresource%2fres_list%26verify%3d1%26lang%3dzh_CN'
+  wx.frameworks = 'Foundation', 'UIKit', 'Security', 'CoreTelephony', 'SystemConfiguration'
+  wx.libraries  = 'z', 'c++' , 'sqlite3'
+  wx.documentation_url = 'https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&lang=zh_CN.'
   wx.source_files = '*.h'
 end
