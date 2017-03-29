@@ -14,7 +14,7 @@ Pod::Spec.new do |wx|
   wx.homepage         = 'http://yunzhanghu.com'
   wx.license          = { :type => 'MIT', :file => "LICENSE" }
   wx.author           = { 'Mr.Yang' => 'tonggang.yang@yunzhanghu.com' }
-  wx.source           = { :git => 'https://github.com/YunzhanghuOpen/RedPacketWeChatLib.git', :tag => "#{wx.version}"}
+  wx.source           = { :git => 'https://github.com/YunzhanghuOpen/cocoapods-WeChatLib.git', :tag => "#{wx.version}"}
 
   wx.platform     = :ios, '7.0'
   wx.requires_arc = true
