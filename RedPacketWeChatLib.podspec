@@ -1,9 +1,10 @@
 Pod::Spec.new do |wx|
   wx.name             = 'RedPacketWeChatLib'
-  wx.version          = '1.6.2'
-  wx.summary          = 'WXApi SDK for iOS.'
+  wx.version          = '1.7.7'
+  wx.summary          = 'WXApi SDK for iOS. 微信SDK'
   wx.description      = <<-DESC
                        RedpacketSDK, WXApi.
+			                 * 红包关联的微信SDK
                        * Redpacket
                        * WXApi
                        * 微信支付
