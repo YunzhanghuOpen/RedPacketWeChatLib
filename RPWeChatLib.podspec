@@ -1,5 +1,5 @@
 Pod::Spec.new do |wx|
-  wx.name             = 'RedPacketWeChatLib'
+  wx.name             = 'RPWeChatLib'
   wx.version          = '1.7.7'
   wx.summary          = 'WXApi SDK for iOS. 微信SDK'
   wx.description      = <<-DESC
